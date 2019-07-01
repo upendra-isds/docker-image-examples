@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'docker build -f ./Centos-ruby2/Dockerfile'
+                sh 'docker build -f ./centos-ruby2/Dockerfile'
             }
         }
     }
